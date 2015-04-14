@@ -25,7 +25,7 @@
 
 学习过程中最难的部分是**如何以响应式的方式来思考**，更多的意味着要摒弃那些老旧的命令式和状态式的典型编程习惯，并且强迫自己的大脑以不同的范式来运作。我还没有在网络上找到任何一个教程是从这个层面来剖析的，我觉得这个世界非常值得拥有一个优秀的实践教程来教你**如何以响应式编程的方式来思考**，方便引导你开始学习响应式编程。然后看各种库文档才可以给你更多的指引。希望这篇文章能够帮助你快速地进入**响应式编程**的世界。
 
-## "什是响应式编程?"
+## "什么是响应式编程?"
 
 网络上有一大堆糟糕的解释和定义，如[Wikipedia](https://en.wikipedia.org/wiki/Reactive_programming)上通常都是些非常笼统和理论性的解释，而[Stackoverflow](http://stackoverflow.com/questions/1028250/what-is-functional-reactive-programming)上的一些规范的回答显然也不适合新手来参考，[Reactive Manifesto](http://www.reactivemanifesto.org/)看起来也只像是拿给你的PM或者老板看的东西，微软的[Rx术语](https://rx.codeplex.com/)"Rx = Observables + LINQ + Schedulers" 也显得太过沉重，而且充满了太多微软式的东西，反而给我们带来更多疑惑。相对于你使用的MV*框架以及你钟爱的编程语言，"Reactive"和"Propagation of change"这样的术语并没有传达任何有意义的概念。当然，我的view框架能够从model做出反应，我的改变当然也会传播，如果没有这些，我的界面根本就没有东西可渲染。
 
